@@ -1,0 +1,132 @@
+#popup_container {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	min-width: 400px; /* Dialog will be no smaller than this ---------------ขนาดของป็อบอัพ  */
+	max-width: 600px; /* Dialog will wrap after this width */
+	background: #FFF;
+	
+	border: solid 5px #999;
+	color: #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 10px;
+}
+
+#popup_title {/*-------------- ส่่วนหัวของป็อบอัพ*/
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 2em;
+	color: #666;
+	background: #CCC url(../img/sprite.png) top repeat-x;
+	border: solid 1px #FFF;
+	border-bottom: solid 1px #999;
+	cursor: default;
+	padding: 0em;
+	margin: 0em;
+}
+
+#popup_content 
+{	
+	background: 16px 16px no-repeat url(../img/info.gif);
+	padding: 1em 1.75em;
+	margin: 0em;
+}
+
+#popup_content.yes /*-------------------------แจ้งผลสำเร็จ*/
+{	text-align: center;
+	font-size: 18px;
+    color: #4F8A10;
+    background-color: #DFF2BF;    
+	background-image: url(../img/success.png);
+}
+#popup_content.nono  /*--------------------แจ้งผลไม่สำเร็จ*/
+{	
+  	color: #D8000C;
+    background-color: #FFCCCC;  
+	background-image: url(../img/error.png);
+}
+#popup_content.warning /*--------------------เตือนค่าว่าง*/
+{ 
+	text-align: center;
+    color: #9F6000;
+	background-color: #FEEFB3;
+	background-image: url(../img/warning.png);
+	
+}
+#popup_content.error/*------------------------เตือนค่าผิด*/
+{ 	
+	text-align: center;
+	color: #D8000C;
+	background-color: #FFFFCC;
+   	background-image: url(../img/important.gif);
+}
+
+#popup_content.successprice /*--------------------รับถูก*/
+{
+	font-size: 24px;
+    color: #00529B;
+    background-color: #BDE5F8;    
+	background-image: url(../img/info.png);
+}
+#popup_content.nonoprice  /*--------------------รับผิด*/
+{	
+	font-size: 18px;
+    color: #D8000C;
+    background-color: #FFCCCC;
+	background-image: url(../img/error.png);
+}
+
+#popup_content.confirmDel /*-------------------------ยืนยันลบ*/
+{ 	text-align: center;
+	font-size: 18px;
+   color: #996600;
+    background-color: #FFFFCC;    
+	background-image: url(../ICON/hourglass_delete.png);
+}
+#popup_content.confirmAction /*--------------------ยืนยันข้อมูล*/
+{   text-align: center;
+	font-size: 18px;
+	text-align: center;
+    color: #003366;
+    background-color: #BDE5F8;    
+	background-image: url(../img/info.png);
+}
+
+
+#popup_content.promptdata /*-------------------------รับข้อมูล*/
+{ text-align: center;
+	color:#939;
+    background-color: #CC99CC;
+	background-image: url(../img/text44.png);
+}
+#popup_content.promptTotal  /*--------------------รับเงิน*/
+{	text-align: left; 	
+	font-size: 18px;
+	color: #00529B;
+    background-color: #BDE5F8; 
+	background-image: url(../ICON/money_add.png);
+}
+
+#popup_content.info /*-------------------------แจ้งข้อมูล*/
+{	text-align: center;
+    color: #00529B;
+    background-color: #BDE5F8;    
+	background-image: url(../img/info.png);
+}
+
+
+#popup_message {
+	padding-left: 48px;
+}
+
+#popup_panel {
+	text-align: center;
+	margin: 1em 0em 0em 1em;
+}
+
+#popup_prompt
+ {
+	
+	margin: 0.02em 5em 0em -0.2em;
+}
